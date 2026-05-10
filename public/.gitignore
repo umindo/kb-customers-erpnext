@@ -1,0 +1,4 @@
+# Ignore generated asset files
+*.bundle.js
+*.css
+!.gitkeep

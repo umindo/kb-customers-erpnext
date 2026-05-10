@@ -1,4 +1,0 @@
-# Ignore compiled assets
-*.bundle.js
-*.css
-!.gitkeep
