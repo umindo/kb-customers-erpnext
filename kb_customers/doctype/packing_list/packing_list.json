@@ -1,0 +1,70 @@
+{
+ "actions": [
+  {
+   "action": "get_items_from_sales_invoice",
+   "action_type": "Server Action",
+   "label": "Get Items from Sales Invoice"
+  }
+ ],
+ "allow_rename": 1,
+ "creation": "2023-01-01 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "no_delivery_order",
+  "no_sales_invoice",
+  "no_purchase_order_customer",
+  "items"
+ ],
+ "fields": [
+  {
+   "fieldname": "no_delivery_order",
+   "fieldtype": "Link",
+   "label": "No Delivery Order",
+   "options": "Delivery Note"
+  },
+  {
+   "fieldname": "no_sales_invoice",
+   "fieldtype": "Link",
+   "label": "No Sales Invoice",
+   "options": "Sales Invoice"
+  },
+  {
+   "fieldname": "no_purchase_order_customer",
+   "fieldtype": "Link",
+   "label": "No Purchase Order Customer",
+   "options": "Purchase Order"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Packing List Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2023-01-01 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "KB Customers",
+ "name": "Packing List",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

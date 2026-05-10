@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-01 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "nama_item",
+  "description_item",
+  "qty",
+  "unit",
+  "berat_item"
+ ],
+ "fields": [
+  {
+   "fieldname": "nama_item",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nama Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description_item",
+   "fieldtype": "Text",
+   "label": "Description Item"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Qty",
+   "reqd": 1
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Data",
+   "label": "Unit"
+  },
+  {
+   "fieldname": "berat_item",
+   "fieldtype": "Float",
+   "label": "Berat Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 0,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-01 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "KB Customers",
+ "name": "Packing List Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
